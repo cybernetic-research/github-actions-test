@@ -1,5 +1,6 @@
 name: Actions Workflow
 on:
+  repository_dispatch:
   workflow_dispatch:
     inputs:
       name:
