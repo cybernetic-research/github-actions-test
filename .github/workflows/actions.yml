@@ -1,5 +1,7 @@
 name: Actions Workflow
 on:
+  workflow_dispatch:
+    types: [build]
   repository_dispatch:
     types: [build]
   #schedule:
